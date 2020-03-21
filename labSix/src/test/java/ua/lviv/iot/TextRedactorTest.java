@@ -12,7 +12,7 @@ class TextRedactorTest {
 	@Test
 	public void replaceNumberTest() {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Pleas type your sentence \n");
+		System.out.println("Pleas type your sentence");
 		text = scanner.nextLine();
 		TextRedactor redactor = new TextRedactor();
 		assertEquals("«KAZKA» _ український музичний гурт, який виконує поп_музику з елементами електро_фолку.",
